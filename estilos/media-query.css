@@ -1,1 +1,47 @@
 @charset "UTF-8";
+
+:root {
+    --cor0:#183d13;
+    --cor1: #26ab15;
+    --cor02: #158207ac;
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+menu {
+    display: block;
+}
+
+menu ul > li > a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.514);
+    font-weight:bold;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: var(--cor0);
+    transition-duration: 0.5s;
+}
+
+menu ul > li > a:hover {
+    background-color: #31ef17;
+    color: #183d13;
+    scale: 1;
+}
+
+
+
+
+    menu > ul > li {
+        display: inline-block;
+    }
+    
+    main {
+        width: 768px;
+    }
+
+}

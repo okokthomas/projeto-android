@@ -62,15 +62,7 @@ nav { /*dar um ajuste depois nesse código*/
     box-shadow: 0px 7px 7px rgba(25, 122, 35, 0.502);
 }
 
-menu > a {
-    color: rgb(40, 105, 38);
-    padding: 10px;
-    text-decoration: none;
-    font-weight:bold;
-    border-radius: 4px;
-    background-color: var(--cor0);
-    transition-duration: 0.5s;
-}
+
 
 menu {
     display: none;
@@ -80,10 +72,6 @@ menu > ul {
     list-style-type: none;
 }
 
-menu > a:hover {
-    background-color: var(--cor1);
-    color: #183d13;
-}
 
 menu > ul > li > a {
     display: block;
